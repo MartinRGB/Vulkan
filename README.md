@@ -1,6 +1,6 @@
 # Vulkan C++ examples and demos
 
-# How to install deni
+# How to install demo
 
 ## Vulkan/xcode
 
