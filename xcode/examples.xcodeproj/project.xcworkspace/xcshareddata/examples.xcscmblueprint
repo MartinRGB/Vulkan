@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD2D1537-0CC5-4969-BD35-AB1ED0A0FACA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "986064432ACD0B21E33CA886A95425627120351A" : "..\/..\/..\/Molten",
-    "5B3778DF088377325550251267213ED1422AF030" : "Vulkan-bw\/"
+    "5B3778DF088377325550251267213ED1422AF030" : "Vulkan\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "examples",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README_MoltenGL_Demos.md">
+   </FileRef>
+   <FileRef
+      location = "group:DrawLoadDemo/DrawLoadDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ParticlesDemo/ParticlesDemo.xcodeproj">
+   </FileRef>
+</Workspace>

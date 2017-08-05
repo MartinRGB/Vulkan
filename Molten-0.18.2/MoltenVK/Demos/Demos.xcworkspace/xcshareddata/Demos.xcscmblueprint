@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "986064432ACD0B21E33CA886A95425627120351A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "82C1301CDD67F717546C11E6E17097F907FB9B5B" : 0,
+    "1AEF3847D6EFB907F5AAF318098B179060D9B080" : 0,
+    "F5272D0878AE527C2DCB4A119C84AB691DA6A19A" : 0,
+    "BBF396F088C41FD06A4EF041092F97670B1E76E4" : 0,
+    "0ADE6025E4DC5602FD729AEA44F70DFF63CA70AB" : 0,
+    "986064432ACD0B21E33CA886A95425627120351A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "897F719E-9769-45B7-9F9D-FBD6CAA7ACB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "82C1301CDD67F717546C11E6E17097F907FB9B5B" : "..\/Khronos\/SPIRV\/SPIRV-Tools\/SPIRV-Tools-bw",
+    "1AEF3847D6EFB907F5AAF318098B179060D9B080" : "..\/Khronos\/Vulkan\/LunarG-VulkanSamples\/VulkanSamples-bw",
+    "F5272D0878AE527C2DCB4A119C84AB691DA6A19A" : "..\/Khronos\/SPIRV\/glslang\/glslang-bw",
+    "BBF396F088C41FD06A4EF041092F97670B1E76E4" : "..\/Khronos\/Vulkan\/Khronos-Vulkan-Samples\/Vulkan-Samples-bw",
+    "0ADE6025E4DC5602FD729AEA44F70DFF63CA70AB" : "ThirdPartyLibraries\/krafix\/krafix-bh\/",
+    "986064432ACD0B21E33CA886A95425627120351A" : "Molten\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demos",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MoltenVK\/Demos\/Demos.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/billhollings\/krafix.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0ADE6025E4DC5602FD729AEA44F70DFF63CA70AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brenwill\/VulkanSamples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AEF3847D6EFB907F5AAF318098B179060D9B080"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brenwill\/SPIRV-Tools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82C1301CDD67F717546C11E6E17097F907FB9B5B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brenwill\/metalgl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "986064432ACD0B21E33CA886A95425627120351A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brenwill\/Vulkan-Samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBF396F088C41FD06A4EF041092F97670B1E76E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brenwill\/glslang.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5272D0878AE527C2DCB4A119C84AB691DA6A19A"
+    }
+  ]
+}

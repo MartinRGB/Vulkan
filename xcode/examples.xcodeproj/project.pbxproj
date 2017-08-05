@@ -70,6 +70,8 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2EF328CB1F36460800C2DC3F /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = macos/prefix.pch; sourceTree = "<group>"; };
+		2EF328CC1F364A2800C2DC3F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = ios/Prefix.pch; sourceTree = "<group>"; };
 		A92F37071C7E1B2B008F8BC9 /* examples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examples.h; sourceTree = "<group>"; };
 		A94A67231B7BDE9B00F6D7C4 /* MetalGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGL.framework; path = ../../MetalGL/macOS/MetalGL.framework; sourceTree = "<group>"; };
 		A94A67241B7BDE9B00F6D7C4 /* MetalGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGLShaderConverter.framework; path = ../../MetalGLShaderConverter/macOS/MetalGLShaderConverter.framework; sourceTree = "<group>"; };
@@ -170,6 +172,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				2EF328CC1F364A2800C2DC3F /* Prefix.pch */,
+				2EF328CB1F36460800C2DC3F /* prefix.pch */,
 				A92F37071C7E1B2B008F8BC9 /* examples.h */,
 				A9BC9B1B1EE8421F00384233 /* MVKExample.h */,
 				A9BC9B1A1EE8421F00384233 /* MVKExample.cpp */,
