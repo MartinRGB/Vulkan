@@ -41,6 +41,6 @@
 #	define VK_USE_PLATFORM_MACOS_MVK			1
 #endif
 
-#include <MoltenVK/vulkan/vulkan.h>
+#include <vulkan/vulkan.h>
 
 #endif
