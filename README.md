@@ -1,5 +1,21 @@
 # Vulkan C++ examples and demos
 
+# How to install deni
+
+## Vulkan/xcode
+
+1.follow [this](https://github.com/MartinRGB/Vulkan/blob/master/xcode/README_MoltenVK_Examples.md) to link [MoltenVK](http://www.moltengl.com/moltenvk/) and [AssImp](https://github.com/assimp/assimp/releases/tag/v3.3.1/)
+
+2.If you meet lacking of .pch, create a `.PCH` file.you can follow [this](http://www.jianshu.com/p/87c4111fea85)
+
+## Vulkan/Molten
+
+1.Read [this](https://github.com/MartinRGB/Vulkan/blob/master/Molten-0.18.2/MoltenVK/Demos/README_MoltenVK_Demos.md) to Link LunarG Vulkan Samples & Khronos Vulkan Samples
+
+2.convert GLSL to `SPIR-V` you need remove the execution permission,refer [this](https://stackoverflow.com/questions/37378375/cannot-execute-binary-file-when-trying-to-run-a-shell-script-on-linux)
+
+# Original README.MD
+
 A comprehensive collection of open source C++ examples for [Vulkan(tm)](https://www.khronos.org/vulkan/), the new graphics and compute API from Khronos.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BHXPMV6ZKPH9E)
