@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF328CF1F36583B00C2DC3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
+		2EF328D01F36584000C2DC3F /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A222171B5D69F40050A5F9 /* Metal.framework */; };
 		A99789AF1CD3D4E2005E7DAC /* Hologram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99789831CD3D4E2005E7DAC /* Hologram.cpp */; };
 		A99789B01CD3D4E2005E7DAC /* Hologram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99789831CD3D4E2005E7DAC /* Hologram.cpp */; };
 		A99789B11CD3D4E2005E7DAC /* Hologram.frag in Resources */ = {isa = PBXBuildFile; fileRef = A99789841CD3D4E2005E7DAC /* Hologram.frag */; };
@@ -136,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF328D01F36584000C2DC3F /* Metal.framework in Frameworks */,
+				2EF328CF1F36583B00C2DC3F /* QuartzCore.framework in Frameworks */,
 				A9F4FB4C1CF688B5003FA0C3 /* MoltenVK.framework in Frameworks */,
 				A9F4FB511CF68C83003FA0C3 /* MoltenGLSLToSPIRVConverter.framework in Frameworks */,
 				A9F4FB461CF68822003FA0C3 /* libc++.tbd in Frameworks */,

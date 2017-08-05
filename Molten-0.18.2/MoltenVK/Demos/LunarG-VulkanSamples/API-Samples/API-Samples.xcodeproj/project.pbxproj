@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF328CD1F3657F000C2DC3F /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A222171B5D69F40050A5F9 /* Metal.framework */; };
+		2EF328CE1F3657F600C2DC3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
 		A95C050B1C98FC1100CC653D /* blue.ppm in Resources */ = {isa = PBXBuildFile; fileRef = A95C05021C98FC1100CC653D /* blue.ppm */; };
 		A95C050C1C98FC1100CC653D /* blue.ppm in Resources */ = {isa = PBXBuildFile; fileRef = A95C05021C98FC1100CC653D /* blue.ppm */; };
 		A95C050D1C98FC1100CC653D /* green.ppm in Resources */ = {isa = PBXBuildFile; fileRef = A95C05041C98FC1100CC653D /* green.ppm */; };
@@ -160,6 +162,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF328CE1F3657F600C2DC3F /* QuartzCore.framework in Frameworks */,
+				2EF328CD1F3657F000C2DC3F /* Metal.framework in Frameworks */,
 				A9B5D0A01CF8834600D7CBDD /* MoltenVK.framework in Frameworks */,
 				A9B5D0A41CF8837900D7CBDD /* MoltenGLSLToSPIRVConverter.framework in Frameworks */,
 				A9B5D09C1CF8830B00D7CBDD /* libc++.tbd in Frameworks */,
