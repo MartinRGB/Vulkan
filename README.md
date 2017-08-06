@@ -1,12 +1,14 @@
 # Vulkan C++ examples and demos
 
-# How to install demo
+# How to run Vulkan demo on macOS
 
 ## Vulkan/xcode
 
 1.follow [this](https://github.com/MartinRGB/Vulkan/blob/master/xcode/README_MoltenVK_Examples.md) to link [MoltenVK](http://www.moltengl.com/moltenvk/) and [AssImp](https://github.com/assimp/assimp/releases/tag/v3.3.1/)
 
 2.If you meet lacking of .pch, create a `.PCH` file.you can follow [this](http://www.jianshu.com/p/87c4111fea85)
+
+3.To run demos in this project, you need to follow [examples.h](https://github.com/MartinRGB/Vulkan/blob/master/xcode/examples.h)
 
 ## Vulkan/Molten
 
