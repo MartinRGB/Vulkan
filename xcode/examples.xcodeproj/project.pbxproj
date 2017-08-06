@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5E5E8F1F36F2F2008EB1B4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A222171B5D69F40050A5F9 /* Metal.framework */; };
+		2E5E5E911F36F2F7008EB1B4 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5E5E901F36F2F7008EB1B4 /* MetalKit.framework */; };
 		A94C8D601EA047B400B3CE07 /* vulkangear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A94C8D5E1EA047B400B3CE07 /* vulkangear.cpp */; };
 		A94C8D611EA047B400B3CE07 /* vulkangear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A94C8D5E1EA047B400B3CE07 /* vulkangear.cpp */; };
 		A951FF171E9C349000FA9144 /* VulkanDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF071E9C349000FA9144 /* VulkanDebug.cpp */; };
@@ -71,6 +73,8 @@
 		1D6058910D05DD3D006BFB54 /* examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2E15FD2F1F36592C00F31D7F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = macos/Prefix.pch; sourceTree = "<group>"; };
+		2E5E5E901F36F2F7008EB1B4 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		2E5E5E921F36F36F008EB1B4 /* MoltenVK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenVK.framework; path = "../Molten-0.18.2/MoltenVK/macOS/MoltenVK.framework"; sourceTree = "<group>"; };
 		A92F37071C7E1B2B008F8BC9 /* examples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examples.h; sourceTree = "<group>"; };
 		A94A67231B7BDE9B00F6D7C4 /* MetalGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGL.framework; path = ../../MetalGL/macOS/MetalGL.framework; sourceTree = "<group>"; };
 		A94A67241B7BDE9B00F6D7C4 /* MetalGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGLShaderConverter.framework; path = ../../MetalGLShaderConverter/macOS/MetalGLShaderConverter.framework; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5E5E911F36F2F7008EB1B4 /* MetalKit.framework in Frameworks */,
+				2E5E5E8F1F36F2F2008EB1B4 /* Metal.framework in Frameworks */,
 				A9532B781EF99937000A09E2 /* libMoltenVK.dylib in Frameworks */,
 				A9581BAF1EEB651500247309 /* libassimp.3.3.1.dylib in Frameworks */,
 			);
@@ -189,6 +195,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E5E5E921F36F36F008EB1B4 /* MoltenVK.framework */,
+				2E5E5E901F36F2F7008EB1B4 /* MetalKit.framework */,
 				A9581BAD1EEB651100247309 /* libassimp.3.3.1.dylib */,
 				A9581BAB1EEB64EC00247309 /* libMoltenVK.dylib */,
 				A9532B751EF99894000A09E2 /* libMoltenVK.dylib */,
@@ -520,7 +528,7 @@
 					"\"$(SRCROOT)/assimp/assimp-macos/lib\"",
 					"$(PROJECT_DIR)/MoltenVK/macOS",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -542,7 +550,7 @@
 					"\"$(SRCROOT)/assimp/assimp-macos/lib\"",
 					"$(PROJECT_DIR)/MoltenVK/macOS",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -560,7 +568,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = MVK_vulkanscene;
+				GCC_PREPROCESSOR_DEFINITIONS = MVK_deferred;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -584,7 +592,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = MVK_vulkanscene;
+				GCC_PREPROCESSOR_DEFINITIONS = MVK_deferred;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
